@@ -210,6 +210,7 @@ Inheritance and Polymorphism.
    * functionName(var x)
    * use of fat arrow void testIt()=> print("Yellow Color")
    * can return or fail to return an element
+   *  Ternary operator --> {condition} ? {return if true} : {return if false}
 */
 
 /**
