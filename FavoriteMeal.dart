@@ -1,5 +1,5 @@
 void main() {
-  String myFavoriteFood = "Ugali"; // Replace with your favorite food
+  String myFavoriteFood = "Ugali"; 
   print("My favorite food is: $myFavoriteFood");
 
   Map<String, dynamic> recipe = {
