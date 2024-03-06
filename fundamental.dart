@@ -11,6 +11,10 @@ Variables and Data Types (int, double, String, bool).
 Operators (arithmetic, comparison, logical).
 Control Structures (if statements, loops - for, while).
 
+
+
+
+
 **/
 
  /**
@@ -45,8 +49,13 @@ eg Before Swapping :
 var1 = 10; var2 =5
 After Swapping : 
 var1 = 5 ; var2 = 10;
-*/  
-
+*/
+var apple = 10;
+var mango =20;
+apple =  apple +  mango;
+mango =  apple - mango;
+apple = apple -  mango;
+print("$apple , $mango"); 
 /**----------------------------------------------------------------------------------------------------- */
 
 /**----------------------------------------------------------------------------------------------------- */
@@ -236,7 +245,7 @@ Inheritance and Polymorphism.
     //   Bottle niki = new Bottle("Bahrain", "100");
     //   print(niki.name);
    
-}  /**
+  /**
      * CLASSES
      * class, constructor, object
      */
@@ -257,3 +266,4 @@ Inheritance and Polymorphism.
   -> Introduction to Flutter ( include the architecture )
   -> Classes & Objects ( start here:'https://dart.dev/language/classes' ), Concurrency (start here: 'https://dart.dev/language/async') and Null Safety (start here: 'https://dart.dev/null-safety') 
 */
+}
